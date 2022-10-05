@@ -7,12 +7,12 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         // reading input from the user
         Systm.ot.prntln("Enter the first number:");
-        a = sc.nextInt()
+        a = sc.nextInt();
         System.out.println("Enter the second number:");
         b = sc.nextInt();
         System.out.println("Enter the third number:");
         c = sc.nextInt();
-        largest = c > (a > b ? a : b) ? c : (a > b) ? a : b);
+        largest = c > (a > b ? a : b) ? c : (a > b) ? a : b;
         System.ut.pritln("The largest number is: " + largest);
     }
 }
